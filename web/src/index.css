@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: monospace;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+button.primary {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+button.primary-black {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.2rem 1rem;
+}
+button.primary-nav {
+  background-color: blueviolet;
+  color: white;
+  border: 2px solid black;
+  width: 15rem;
+  height: 10rem;
+  font-size: 1.4em;
+  margin: 0.5rem;
+}
+
+button.primary-delete {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+button.outline {
+  background-color: white;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  padding: 0.5rem 1rem;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+input {
+  all: unset;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 0.6rem;
+  border: 1px solid blue;
+}
+
+table th {
+  background-color: black;
+  color: whitesmoke;
+}
+
+table td {
+  background-color: grey;
+  color: black;
+}
